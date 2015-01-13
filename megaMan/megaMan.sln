@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "megaMan", "megaMan\megaMan\megaMan.csproj", "{2AFE5C17-BF1D-486E-8E5F-D8D918122D47}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "megaManContent", "megaMan\megaManContent\megaManContent.contentproj", "{50AB1678-3E37-4A97-AAD7-9627BC5BA766}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AFE5C17-BF1D-486E-8E5F-D8D918122D47}.Debug|x86.ActiveCfg = Debug|x86
+		{2AFE5C17-BF1D-486E-8E5F-D8D918122D47}.Debug|x86.Build.0 = Debug|x86
+		{2AFE5C17-BF1D-486E-8E5F-D8D918122D47}.Release|x86.ActiveCfg = Release|x86
+		{2AFE5C17-BF1D-486E-8E5F-D8D918122D47}.Release|x86.Build.0 = Release|x86
+		{50AB1678-3E37-4A97-AAD7-9627BC5BA766}.Debug|x86.ActiveCfg = Debug|x86
+		{50AB1678-3E37-4A97-AAD7-9627BC5BA766}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
