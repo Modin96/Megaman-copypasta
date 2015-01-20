@@ -1,2 +1,0 @@
-C:\Users\nti\Documents\GitHub\Megaman-copypasta\megaMan\megaMan\megaMan\obj\x86\Debug\megaMan.csprojResolveAssemblyReference.cache
-C:\Users\nti\Documents\GitHub\Megaman-copypasta\megaMan\megaMan\megaMan\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
