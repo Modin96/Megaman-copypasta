@@ -2,3 +2,15 @@ megaMan\megaMan\megaMan\obj
 megaMan\megaMan\megaMan\obj\*
 megaMan/megaMan/megaMan/obj
 megaMan/megaMan/megaMan/obj/*
+
+# Common files to ignore
+*.swp
+*.zip
+*.suo
+*.user
+megaMan/megaMan/bin
+megaMan/megaManContent/bin
+megaMan/megaMan/obj
+megaMan/megaManContent/obj
+*.cachefile
+*.ccgame 
