@@ -12,7 +12,7 @@ using Microsoft.Xna.Framework.Media;
 
 namespace megaMan
 {
-    public class Player : Sprite
+    public class Player : Entity
     {
         public Player(Texture2D texture, Vector2 position)
             : base(texture, position)
@@ -25,11 +25,11 @@ namespace megaMan
 
             KeyboardState newState = Keyboard.GetState(); // kontroller
 
-          /*if (newState.IsKeyDown(Keys.Space))
+            /*if (newState.IsKeyDown(Keys.Space)) // den kommer bara gå upp, skapa först en funktion för "hopp" (gravitation)
             {
-                MovUp();
-            }
-            */
+                MoveUp();
+            }*/
+            
 
             if (newState.IsKeyDown(Keys.A))
             {
