@@ -54,10 +54,14 @@ namespace megaMan
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             player = new Player(Content.Load<Texture2D>("Sprites/Player/playerSprite"), new Vector2(0, Window.ClientBounds.Width / 3));
 =======
             player = new Player(Content.Load<Texture2D>("megaMan/Sprites/Player/playerSprite.Png"), new Vector2(0, Window.ClientBounds.Width / 3));
 >>>>>>> origin/master
+=======
+            player = new Player(Content.Load<Texture2D>("Sprites/player/playerSprite"), new Vector2(0, Window.ClientBounds.Width / 3));
+>>>>>>> e9b47f4b0fd10feb34f154021eb877673a159917
 
             // TODO: use this.Content to load your game content here
         }
