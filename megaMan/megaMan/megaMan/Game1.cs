@@ -22,6 +22,10 @@ namespace megaMan
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
+            graphics.PreferredBackBufferHeight = 720;
+            graphics.PreferredBackBufferWidth = 1280;
+            graphics.IsFullScreen = false;
+            graphics.ApplyChanges();
             Content.RootDirectory = "Content";
         }
 
