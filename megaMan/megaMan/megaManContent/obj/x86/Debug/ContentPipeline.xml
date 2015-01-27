@@ -7,17 +7,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-<<<<<<< HEAD
-      <RootDirectory>C:\Users\nti\documents\visual studio 2010\Projects\megaMan\megaMan\megaManContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\nti\documents\visual studio 2010\Projects\megaMan\megaMan\megaMan\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\nti\documents\visual studio 2010\Projects\megaMan\megaMan\megaManContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\nti\documents\visual studio 2010\Projects\megaMan\megaMan\megaMan\bin\x86\Debug\Content\</OutputDirectory>
-=======
-      <RootDirectory>C:\Users\nti\Documents\GitHub\Megaman-copypasta\megaMan\megaMan\megaManContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\nti\Documents\GitHub\Megaman-copypasta\megaMan\megaMan\megaMan\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\nti\Documents\GitHub\Megaman-copypasta\megaMan\megaMan\megaManContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\nti\Documents\GitHub\Megaman-copypasta\megaMan\megaMan\megaMan\bin\x86\Debug\Content\</OutputDirectory>
->>>>>>> origin/master
+      <RootDirectory>C:\Users\nti\Desktop\Megaman-copypasta\megaMan\megaMan\megaManContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\nti\Desktop\Megaman-copypasta\megaMan\megaMan\megaMan\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\nti\Desktop\Megaman-copypasta\megaMan\megaMan\megaManContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\nti\Desktop\Megaman-copypasta\megaMan\megaMan\megaMan\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
