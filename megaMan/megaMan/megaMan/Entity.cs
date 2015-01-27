@@ -19,9 +19,8 @@ namespace megaMan
         public float speed;
 
        public Entity(Texture2D texture, Vector2 position)
+       :base(texture,position)
        {
-           this.texture = texture;
-           this.position = position;
            this.speed = 4.5f;
        }
    
