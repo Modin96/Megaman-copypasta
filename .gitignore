@@ -14,3 +14,5 @@ megaMan/megaMan/obj
 megaMan/megaManContent/obj
 *.cachefile
 *.ccgame 
+megaMan/megaMan/megaManContent/obj/x86/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+*.cache
