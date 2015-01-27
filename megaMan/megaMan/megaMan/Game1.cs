@@ -19,6 +19,8 @@ namespace megaMan
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
+        Player player; //deklarerar player
+
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -51,6 +53,8 @@ namespace megaMan
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
+            player = new Player(Content.Load<Texture2D>("Content/Sprites/Player/playerSprite"), new Vector2(0, Window.ClientBounds.Width / 3));
+
             // TODO: use this.Content to load your game content here
         }
 
@@ -74,6 +78,9 @@ namespace megaMan
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
 
+            player.Update(Window); // uppdaterar spelare
+
+
             // TODO: Add your update logic here
 
             base.Update(gameTime);
@@ -88,6 +95,8 @@ namespace megaMan
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             spriteBatch.Begin();
+
+            player.Draw(spriteBatch);
 
             // lägg till "rita" funktioner
 

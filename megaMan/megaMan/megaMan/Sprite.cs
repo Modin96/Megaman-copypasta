@@ -61,7 +61,7 @@ namespace megaMan
 
        public bool DetectCollision(Rectangle otherRect) // kod för kollision
         {
-            Rectangle myRect = new Rectangle(Convert.ToInt32(position.X), Convert.ToInt32(position.Y), texture.Width, texture.Height * length);
+            Rectangle myRect = new Rectangle(Convert.ToInt32(position.X), Convert.ToInt32(position.Y), texture.Width, texture.Height );
             
             if (myRect.Intersects(otherRect))
             {
