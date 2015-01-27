@@ -53,7 +53,7 @@ namespace megaMan
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
-            player = new Player(Content.Load<Texture2D>("Content/Sprites/Player/playerSprite"), new Vector2(0, Window.ClientBounds.Width / 3));
+            player = new Player(Content.Load<Texture2D>("Sprites/Player/playerSprite"), new Vector2(0, Window.ClientBounds.Width / 3));
 
             // TODO: use this.Content to load your game content here
         }
