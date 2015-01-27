@@ -117,7 +117,6 @@
   <ItemGroup>
     <Content Include="Game.ico" />
     <Content Include="GameThumbnail.png" />
-    <Content Include="Sprites\Player\playerSprite.Png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\megaManContent\megaManContent.contentproj">
