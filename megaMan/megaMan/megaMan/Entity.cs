@@ -14,7 +14,44 @@ namespace megaMan
 {
     public class Entity : Sprite
     {
-        bool isAlive = true;
-        
+        protected bool isAlive = true;
+
+        public float speed;
+
+       public Entity(Texture2D texture, Vector2 position)
+       {
+           this.texture = texture;
+           this.position = position;
+           this.speed = 4.5f;
+       }
+   
+       public void Draw(SpriteBatch spriteBatch)
+       {
+           Vector2 tmp;
+           tmp.X = position.X;
+           tmp.Y = position.Y;
+           spriteBatch.Draw(texture,tmp, Color.White);
+       }
+
+
+       public void MoveRight() // ökar x värdet (åker höger)
+       {
+           position.X -= speed;
+       }
+
+       public void MoveLeft() // minskar x värdet (åker vänster)
+       {
+           position.X += speed;
+       }
+
+       public void MoveUp() // ökar y värdet (åker upp)
+       {
+           position.Y -= speed;
+       }
+
+       public void MoveDown() // minskar y värdet (åker ner)
+       {
+           position.Y += speed;
+       }
     }
 }
