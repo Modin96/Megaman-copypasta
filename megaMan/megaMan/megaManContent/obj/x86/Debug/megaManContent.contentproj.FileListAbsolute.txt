@@ -1,1 +1,2 @@
 C:\Users\nti\Documents\GitHub\Megaman-copypasta\megaMan\megaMan\megaManContent\obj\x86\Debug\megaManContent.contentprojResolveAssemblyReference.cache
+C:\Users\admusr\Documents\Github\Megaman-copypasta\megaMan\megaMan\megaManContent\obj\x86\Debug\megaManContent.contentprojResolveAssemblyReference.cache

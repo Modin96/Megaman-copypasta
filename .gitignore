@@ -16,3 +16,5 @@ megaMan/megaManContent/obj
 *.ccgame 
 megaMan/megaMan/megaManContent/obj/x86/Debug/DesignTimeResolveAssemblyReferencesInput.cache
 *.cache
+megaMan/megaMan/megaManContent/obj/x86/Debug/ContentPipeline.xml
+megaMan/megaMan/megaManContent/obj/x86/Debug/megaManContent.contentproj.FileListAbsolute.txt
