@@ -14,12 +14,12 @@ using Microsoft.Xna.Framework.Media;
 
 namespace megaMan
 {
-   public class Sprite
+    public class Sprite
     {
-       public Texture2D texture;
-       public Vector2 position;
-       public float speed;
+        public Texture2D texture;
+        public Vector2 position;
 
+<<<<<<< HEAD
        public Sprite(Texture2D texture, Vector2 position)
        {
            this.texture = texture;
@@ -69,8 +69,7 @@ namespace megaMan
             }
             return false;
         }
+=======
+>>>>>>> origin/master
     }
 }
-
-       
-
