@@ -17,6 +17,32 @@ namespace megaMan
         public Player(Texture2D texture, Vector2 position)
             : base(texture, position)
         {
+
+        }
+
+        public void Update(GameWindow window)
+        {
+
+            KeyboardState newState = Keyboard.GetState(); // kontroller
+
+          /*if (newState.IsKeyDown(Keys.Space))
+            {
+                MovUp();
+            }
+            */
+
+            if (newState.IsKeyDown(Keys.A))
+            {
+                MoveLeft();
+            }
+
+            if (newState.IsKeyDown(Keys.D))
+
+            {
+                MoveRight();
+            }
+
+
         }
 
 
