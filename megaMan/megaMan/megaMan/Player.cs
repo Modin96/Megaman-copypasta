@@ -25,15 +25,9 @@ namespace megaMan
 
             KeyboardState newState = Keyboard.GetState(); // kontroller
 
-<<<<<<< HEAD
             if (newState.IsKeyDown(Keys.W))
             {
                 jump();
-=======
-            if (newState.IsKeyDown(Keys.Space))
-            {
-                MoveUp();
->>>>>>> origin/master
             }
             
 
