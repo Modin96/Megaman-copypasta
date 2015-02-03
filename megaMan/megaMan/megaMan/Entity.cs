@@ -35,12 +35,12 @@ namespace megaMan
 
        public void MoveRight() // ökar x värdet (åker höger)
        {
-           position.X -= speed;
+           position.X += speed;
        }
 
        public void MoveLeft() // minskar x värdet (åker vänster)
        {
-           position.X += speed;
+           position.X -= speed;
        }
 
        public void MoveUp() // ökar y värdet (åker upp)

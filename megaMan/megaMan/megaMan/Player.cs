@@ -25,10 +25,10 @@ namespace megaMan
 
             KeyboardState newState = Keyboard.GetState(); // kontroller
 
-            /*if (newState.IsKeyDown(Keys.Space)) // den kommer bara gå upp, skapa först en funktion för "hopp" (gravitation)
+            if (newState.IsKeyDown(Keys.Space))
             {
                 MoveUp();
-            }*/
+            }
             
 
             if (newState.IsKeyDown(Keys.A))
