@@ -14,14 +14,33 @@ namespace megaMan
 {
     public class Entity : Sprite
     {
-        protected bool isAlive = true;
+        protected bool isAlive = true, isJumping = false;
+        protected float velocity = 0;
 
-        public float speed;
+        public float speedY, speedX;
+
 
        public Entity(Texture2D texture, Vector2 position)
        :base(texture,position)
        {
-           this.speed = 4.5f;
+           this.speedX = 5f;
+           this.speedY = 13f;
+       }
+
+       public virtual void Update(GameWindow window)
+       {
+           if (isJumping)
+           {
+               velocity += 0.5f;
+               if (velocity >= speedY) 
+               { 
+                   velocity = speedY;
+                   isJumping = false;
+               }
+
+               position.Y += velocity;
+ 
+           }
        }
    
        public void Draw(SpriteBatch spriteBatch)
@@ -33,24 +52,44 @@ namespace megaMan
        }
 
 
+
        public void MoveRight() // ökar x värdet (åker höger)
        {
-           position.X -= speed;
+           position.X += speedX;
        }
 
        public void MoveLeft() // minskar x värdet (åker vänster)
        {
-           position.X += speed;
+           position.X -= speedX;
        }
 
        public void MoveUp() // ökar y värdet (åker upp)
        {
-           position.Y -= speed;
+           position.Y -= speedY;
        }
 
        public void MoveDown() // minskar y värdet (åker ner)
        {
-           position.Y += speed;
+           position.Y += speedY;
+
        }
+
+       public void jump() // ökar y värdet (åker upp)
+       {
+           if (!isJumping)
+           {
+               isJumping = true;
+               velocity = -speedY;
+           }
+       }
+
+
+   
+
+
+
+
+
+       
     }
 }

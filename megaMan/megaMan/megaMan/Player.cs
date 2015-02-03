@@ -20,15 +20,15 @@ namespace megaMan
 
         }
 
-        public void Update(GameWindow window)
+        public override void Update(GameWindow window)
         {
 
             KeyboardState newState = Keyboard.GetState(); // kontroller
 
-            /*if (newState.IsKeyDown(Keys.Space)) // den kommer bara gå upp, skapa först en funktion för "hopp" (gravitation)
+            if (newState.IsKeyDown(Keys.W))
             {
-                MoveUp();
-            }*/
+                jump();
+            }
             
 
             if (newState.IsKeyDown(Keys.A))
@@ -42,7 +42,7 @@ namespace megaMan
                 MoveRight();
             }
 
-
+            base.Update(window);
         }
 
 

@@ -20,10 +20,12 @@ namespace megaMan
         public Vector2 position;
 
 
+
        public Sprite(Texture2D texture, Vector2 position)
        {
            this.texture = texture;
            this.position = position;
+
            
        }
         
