@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\nti\Desktop\Megaman-copypasta\megaMan\megaMan\megaMan\bin\x86\Debug\Content\Sprites\player\playerSprite.xnb</Output>
-      <Time>2015-02-03T12:35:08.0686145+01:00</Time>
+      <Output>C:\Users\admusr\Documents\Github\Megaman-copypasta\megaMan\megaMan\megaMan\bin\x86\Debug\Content\Sprites\player\playerSprite.xnb</Output>
+      <Time>2015-02-03T12:47:10.977298+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -16,10 +16,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\nti\Desktop\Megaman-copypasta\megaMan\megaMan\megaManContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\nti\Desktop\Megaman-copypasta\megaMan\megaMan\megaMan\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\nti\Desktop\Megaman-copypasta\megaMan\megaMan\megaManContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\nti\Desktop\Megaman-copypasta\megaMan\megaMan\megaMan\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\admusr\Documents\Github\Megaman-copypasta\megaMan\megaMan\megaManContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\admusr\Documents\Github\Megaman-copypasta\megaMan\megaMan\megaMan\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\admusr\Documents\Github\Megaman-copypasta\megaMan\megaMan\megaManContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\admusr\Documents\Github\Megaman-copypasta\megaMan\megaMan\megaMan\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -47,8 +47,8 @@
         <Value>2010-08-23T12:41:18+02:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2012-06-07T11:17:18.3509049+02:00</Value>
+        <Key>C:\windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2014-09-11T12:15:16.0471218+02:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

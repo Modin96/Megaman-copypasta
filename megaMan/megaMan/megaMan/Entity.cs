@@ -20,84 +20,72 @@ namespace megaMan
         public float speedY, speedX;
 
 
-       public Entity(Texture2D texture, Vector2 position)
-       :base(texture,position)
-       {
-           this.speedX = 5f;
-           this.speedY = 13f;
-       }
+        public Entity(Texture2D texture, Vector2 position)
+            : base(texture, position)
+        {
+            this.speedX = 5f;
+            this.speedY = 13f;
+        }
 
-       public virtual void Update(GameWindow window)
-       {
-           if (isJumping)
-           {
-               velocity += 0.5f;
-               if (velocity >= speedY) 
-               { 
-                   velocity = speedY;
-                   isJumping = false;
-               }
+        public virtual void Update(GameWindow window)
+        {
+            if (isJumping)
+            {
+                velocity += 0.5f;
+                if (velocity >= speedY)
+                {
+                    velocity = speedY;
+                    isJumping = false;
+                }
 
-               position.Y += velocity;
- 
-           }
-       }
-   
-       public void Draw(SpriteBatch spriteBatch)
-       {
-           Vector2 tmp;
-           tmp.X = position.X;
-           tmp.Y = position.Y;
-           spriteBatch.Draw(texture,tmp, Color.White);
-       }
+                position.Y += velocity;
 
+            }
+        }
 
-
-       public void MoveRight() // ökar x värdet (åker höger)
-       {
-<<<<<<< HEAD
-           position.X += speedX;
-=======
-           position.X += speed;
->>>>>>> origin/master
-       }
-
-       public void MoveLeft() // minskar x värdet (åker vänster)
-       {
-<<<<<<< HEAD
-           position.X -= speedX;
-=======
-           position.X -= speed;
->>>>>>> origin/master
-       }
-
-       public void MoveUp() // ökar y värdet (åker upp)
-       {
-           position.Y -= speedY;
-       }
-
-       public void MoveDown() // minskar y värdet (åker ner)
-       {
-           position.Y += speedY;
-
-       }
-
-       public void jump() // ökar y värdet (åker upp)
-       {
-           if (!isJumping)
-           {
-               isJumping = true;
-               velocity = -speedY;
-           }
-       }
-
-
-   
+        public void Draw(SpriteBatch spriteBatch)
+        {
+            Vector2 tmp;
+            tmp.X = position.X;
+            tmp.Y = position.Y;
+            spriteBatch.Draw(texture, tmp, Color.White);
+        }
 
 
 
+        public void MoveRight() // ökar x värdet (åker höger)
+        {
+            position.X += speedX;
+
+        }
+
+        public void MoveLeft() // minskar x värdet (åker vänster)
+        {
+
+            position.X -= speedX;
+        }
+
+        public void MoveUp() // ökar y värdet (åker upp)
+        {
+            position.Y -= speedY;
+        }
+
+        public void MoveDown() // minskar y värdet (åker ner)
+        {
+            position.Y += speedY;
+
+        }
+
+        public void jump() // ökar y värdet (åker upp)
+        {
+            if (!isJumping)
+            {
+                isJumping = true;
+                velocity = -speedY;
+            }
+        }
 
 
-       
     }
+
 }
